@@ -1,0 +1,22 @@
+extends ../layout
+
+block content
+	include ../principal
+	
+	br 
+	br 
+	h4 ZZZ Bluemix Samples - (views => home => index.jade)
+	br 
+	ul
+	li
+		a(href="/ZZZFacebook" title="Facebook", class="btn btn-success") Facebook
+	li
+		a(href="/ZZZLinkedIn" title="usuarios", class="btn btn-warning") Usuarios
+	li
+		a(href="/ZZZLDAPIBM" title="ZZZLDAPIBM", class="btn btn-success") LDAP IBM
+	li
+		a(href="/ZZZCRUDMongoDb" title="ZZZCRUDMongoDb", class="btn btn-warning") ZZZCRUDMongoDb
+	li
+		a(href="/ZZZCRUDCloudantDb" title="ZZZCRUDCloudantDb", class="btn btn-success") ZZZCRUDCloudantDb
+	include ../zzzprincipal
+	

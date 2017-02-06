@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ZZZBluemixSamples  
+  host: ZZZBluemixSamples
+  disk_quota: 256M
+  services:
+  - ZZZ_Auto_Scaling
+  - ZZZ_TP_SecureGateway
+  - ZZZ_Monitoring_and_Analytics
+  - ZZZ_Mobile_Client_Access
+  
