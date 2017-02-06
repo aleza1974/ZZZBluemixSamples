@@ -8,9 +8,25 @@ module.exports = function(app){
 	
 	console.log("### controllers/usuarios.js ==> #003");
 	var UsuarioController = {
+		zzzcrudcloudantdb: function(req, res) {
+				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
+			    res.render('home/ZZZCRUDCloudantDb');
+			},
 		zzzcrudmongodb: function(req, res) {
 				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
 			    res.render('home/ZZZCRUDMongoDb');
+			},
+		zzzfacebook: function(req, res) {
+				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
+			    res.render('home/ZZZFacebook');
+			},
+		zzzldapibm: function(req, res) {
+				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
+			    res.render('home/ZZZLDAPIBM');
+			},
+		zzzlinkedin: function(req, res) {
+				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
+			    res.render('home/ZZZLinkedIn');
 			},
 		voltar: function(req, res) {
 				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);

@@ -12,7 +12,15 @@ module.exports = function(app){
 	
 	console.log("### routes/usuarios.js ==> #009 app.get /ZZZCRUDMongoDb");
 
+	app.get("/ZZZCRUDCloudantDb", usuarios.zzzcrudcloudantdb);
+
 	app.get("/ZZZCRUDMongoDb", usuarios.zzzcrudmongodb);
+
+	app.get("/ZZZFacebook", usuarios.zzzfacebook);
+
+	app.get("/ZZZLDAPIBM", usuarios.zzzldapibm);
+
+	app.get("/ZZZLinkedIn", usuarios.zzzlinkedin);
 
 	app.get("/ZZZVoltar", usuarios.voltar);
 
