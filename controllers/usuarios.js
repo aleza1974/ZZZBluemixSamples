@@ -10,7 +10,8 @@ module.exports = function(app){
 	var UsuarioController = {
 		zzzcrudcloudantdb: function(req, res) {
 				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
-			    res.render('home/ZZZCRUDCloudantDb');
+/*			    res.render('home/ZZZCRUDCloudantDb'); */
+			    res.sender('home/ZZZCRUDCloudantDb');
 			},
 		zzzcrudmongodb: function(req, res) {
 				console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
