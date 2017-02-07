@@ -11,5 +11,5 @@ applications:
   - ZZZ_TP_SecureGateway
   - ZZZ_Monitoring_and_Analytics
   - ZZZ_Mobile_Client_Access
-  - ZZZ_Single_Sign_On
+  - ZZZSingleSignOn
   
