@@ -7,10 +7,10 @@ applications:
   host: ZZZBluemixSamples
   disk_quota: 256M
   services:
+  - ZZZSingleSignOn
   - ZZZ_Auto_Scaling
   - ZZZ_TP_SecureGateway
   - ZZZ_Monitoring_and_Analytics
   - ZZZ_Mobile_Client_Access
-  - ZZZSingleSignOn
   
   
