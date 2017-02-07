@@ -2,6 +2,7 @@ console.log("### controllers/usuarios.js ==> INICIO ###");
 console.log("### controllers/usuarios.js ==> #001");
 var moment			= require('moment');
 
+
 module.exports = function(app){
 	console.log("### controllers/usuarios.js ==> #002");
 	var Usuario = app.models.usuarios;
