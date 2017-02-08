@@ -56,6 +56,10 @@ module.exports = function(app){
 				res.render('usuarios/index_listar', {lista: data, moment: moment});
 			});
 		},
+		zzzalchemylanguageapi: function(req, res) {
+			console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
+		    res.render('home/ZZZAlchemyLanguageAPI');
+		},
 		zzzfacebook: function(req, res) {
 			console.log("### controllers/usuarios.js ==> #003 index " + app.mountpath);
 		    res.render('home/ZZZFacebook');

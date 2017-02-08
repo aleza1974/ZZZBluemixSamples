@@ -15,13 +15,15 @@ module.exports = function(app){
 //	app.get("/usuarios", usuarios.cadastrar);
 
 
-	app.get("/ZZZCRUDCloudantDb", 	usuarios.zzzcrudcloudantdb);
-	app.get("/ZZZCRUDMongoDb", 		usuarios.zzzcrudmongodb);
-//	app.get("/ZZZCRUDMongoDb", 		usuarios.cadastrar);
-	app.get("/ZZZFacebook", 		usuarios.zzzfacebook);
-	app.get("/ZZZLDAPIBM", 			usuarios.zzzldapibm);
-	app.get("/ZZZLinkedIn", 		usuarios.zzzlinkedin);
-	app.get("/ZZZVoltar", 			usuarios.voltar);
+
+	app.get("/ZZZAlchemyLanguageAPI", 	usuarios.zzzcrudcloudantdb);
+	app.get("/ZZZCRUDCloudantDb", 		usuarios.zzzcrudcloudantdb);
+	app.get("/ZZZCRUDMongoDb", 			usuarios.zzzcrudmongodb);
+//	app.get("/ZZZCRUDMongoDb", 			usuarios.cadastrar);
+	app.get("/ZZZFacebook", 			usuarios.zzzfacebook);
+	app.get("/ZZZLDAPIBM", 				usuarios.zzzldapibm);
+	app.get("/ZZZLinkedIn", 			usuarios.zzzlinkedin);
+	app.get("/ZZZVoltar", 				usuarios.voltar);
 
 	
 	console.log("### routes/usuarios.js ==> #004 app.get /usuarios/cadastrar");
